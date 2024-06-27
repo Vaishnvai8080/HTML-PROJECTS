@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbaritems {
+    background-color: green;
+    display: flex;
+    align-items: center;
+    /* border: 2px solid red; */
+    justify-content: space-around;
+    height: 70px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.logo {
+    /* background-color: blue; */
+    width: 350px;
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    gap: 60px;
+    /* border: 2px solid yellow; */
+
+}
+
+.logo img {
+    height: 60px;
+    width: 60px;
+    border-radius: 70px;
+
+}
+
+.christmastext {
+    margin-top: 80px;
+}
+
+.christmastext img {
+    position: absolute;
+    top: 60px;
+    z-index: -1;
+    height: 200px;
+    width: 100vw;
+}
+
+.christmastext p {
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.textdata {
+    margin-top: 80px;
+}
+
+.text {
+    text-align: justify;
+}
+
+.imageschristmas {
+    position: relative;
+    top: 70px;
+    z-index: -1;
+    /* background-color: blue; */
+    /* padding: 40px; */
+
+}
+
+.imageschristmas div img {
+    height: 170px;
+    width: 170px;
+    border-radius: 50px;
+}
+
+.inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.imagesdata {
+    display: flex;
+    gap: 30px;
+}
+
+.marqueeText {
+    font-size: 60px;
+    color: #88201e;
+    /* display: flex; */
+    /* display: inline-flex; */
+    /* flex-direction: row; */
+    /* align-items: center;
+    justify-content:center ;
+    background-color: blue;
+    height: 170px; */
+
+}
+
+.textdata {
+    background-image: url("https://media.istockphoto.com/id/1804975122/photo/green-christmas-background-with-fir-branches-and-decorations.webp?b=1&s=170667a&w=0&k=20&c=kV_QAeGgPd2TXD_6phyUedxifjnOiOw0Rg_rbw-l7Xo=");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+
+}

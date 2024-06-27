@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+
+<body>
+        <h1>Simple Calculator</h1>
+
+        <!--Main body of the calculator-->
+        <div class="main">
+            <form action="" name="cal">
+                <input type="text" name="disp" placeholder="0" class="txt"><br>
+                <input type="button" value="1" onclick="cal.disp.value+=1">
+                <input type="button" value="2" onclick="cal.disp.value+=2">
+                <input type="button" value="3" onclick="cal.disp.value+=3">
+                <input type="button" value="+" onclick="add()"><br>
+
+                <input type="button" value="4" onclick="cal.disp.value+=4">
+                <input type="button" value="5" onclick="cal.disp.value+=5">
+                <input type="button" value="6" onclick="cal.disp.value+=6">
+                <input type="button" value="-" onclick="sub()"><br>
+
+                <input type="button" value="7" onclick="cal.disp.value+=7">
+                <input type="button" value="8" onclick="cal.disp.value+=8">
+                <input type="button" value="9" onclick="cal.disp.value+=9">
+                <input type="button" value="x" onclick="mult()"><br>
+
+                <input type="button" value="C" onclick="cal.disp.value=''">
+                <input type="button" value="0" onclick="cal.disp.value+=0">
+                <input type="button" value="=" onclick="cal.disp.value=eval(cal.disp.value)">
+                <input type="button" value="/" onclick="div()">
+
+            </form>
+        </div>
+
+
+
+
+    <!--javaScript-->
+    <script src="calculator.js"></script>
+
+</body>
+
+</html>

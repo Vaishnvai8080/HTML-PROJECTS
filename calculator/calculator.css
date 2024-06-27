@@ -1,0 +1,35 @@
+<style>
+        /*Stylesheet using internal CSS*/
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .main {
+            margin-top: 20px;
+            width: 400px;
+            height: 450px;
+            background-color: rgb(43, 39, 39);
+        }
+
+        h1 {
+            /* text-align: center; */
+            padding: 20px 20px 0px 20px;
+            color: #000000;
+            font-size: 40px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        input {
+            width: 60px;
+            height: 60px;
+            font-size: 30px;
+            margin: 0.8rem;
+            background-color: silver;
+        }
+
+        .txt {
+            width: 83%;
+            background-color: silver;
+        }
